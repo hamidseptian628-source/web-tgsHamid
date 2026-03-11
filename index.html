@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Wisata Bengkulu</title>
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<style>
+
+/* Background Website */
+body{
+background-image: url("images/bg.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+background-attachment: fixed;
+}
+
+/* Efek hover gambar */
+.card img{
+transition: 0.3s;
+}
+
+.card img:hover{
+transform: scale(1.05);
+}
+
+/* Animasi tulisan navbar */
+.nav-bergerak{
+display:inline-block;
+white-space:nowrap;
+animation: gerakKiri 8s linear infinite;
+}
+
+@keyframes gerakKiri{
+0%{transform:translateX(0);}
+50%{transform:translateX(50px);}
+100%{transform:translateX(0);}
+}
+
+</style>
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<div class="container">
+<a class="navbar-brand nav-bergerak" href="#">Wisata Bengkulu</a>
+</div>
+</nav>
+
+<!-- Hero -->
+
+<div class="container mt-4">
+<div class="text-center text-white">
+<h1>Destinasi Wisata Bengkulu</h1>
+<p>Tempat wisata indah di Provinsi Bengkulu</p>
+</div>
+</div>
+
+<!-- Card Wisata -->
+
+<div class="container mt-4">
+<div class="row">
+
+<!-- Pantai -->
+
+<div class="col-md-4">
+<div class="card">
+<a href="pantai.html">
+<img src="images/pantai.jpg" class="card-img-top">
+</a>
+<div class="card-body">
+<h5 class="card-title">Pantai Panjang</h5>
+<p class="card-text">Pantai terkenal di Bengkulu dengan pasir putih dan pemandangan sunset yang indah.</p>
+</div>
+</div>
+</div>
+
+<!-- Benteng -->
+
+<div class="col-md-4">
+<div class="card">
+<a href="benteng.html">
+<img src="images/benteng.jpg" class="card-img-top">
+</a>
+<div class="card-body">
+<h5 class="card-title">Benteng Marlborough</h5>
+<p class="card-text">Benteng peninggalan Inggris yang menjadi wisata sejarah terkenal di Bengkulu.</p>
+</div>
+</div>
+</div>
+
+<!-- Danau -->
+
+<div class="col-md-4">
+<div class="card">
+<a href="danau.html">
+<img src="images/danau.jpg" class="card-img-top">
+</a>
+<div class="card-body">
+<h5 class="card-title">Danau Dendam</h5>
+<p class="card-text">Danau alami dengan pemandangan yang indah dan legenda unik dari Bengkulu.</p>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+
+<!-- Footer -->
+
+<footer class="bg-dark text-white text-center p-3 mt-5">
+<p>© 2026 - Hamid Septian</p>
+</footer>
+
+</body>
+</html>
